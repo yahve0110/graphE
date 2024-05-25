@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './assets/styles/global.css'
-import {RouterProvider, createBrowserRouter, Route} from "react-router-dom";
+import {RouterProvider, createBrowserRouter} from "react-router-dom";
 import LoginPage from "./components/screens/auth/LoginPage.jsx";
 
 const router = createBrowserRouter([
