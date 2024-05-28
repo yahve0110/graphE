@@ -21,9 +21,7 @@ const LoginPage = () => {
                     password: password
                 }
             });
-            console.log('Response from server:', response.data);
             const token = response.data;
-            console.log('Extracted token:', token);
             localStorage.setItem('token', token);
             setToken(token);
             setIsLoggedIn(true);

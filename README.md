@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# GraphQL Profile Page Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Follow the Link
 
-## Available Scripts
+The project is deployed on [Netlify](https://shimmering-pie-d1d7c7.netlify.app)
 
-In the project directory, you can run:
+## Project Description
 
-### `npm start`
+This project is created to learn the GraphQL query language by creating a custom profile page. The project uses the GraphQL endpoint provided by the platform (https://01.kood.tech/api/graphql-engine/v1/graphql) to query data and populate the user profile page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Profile Page
 
-### `npm test`
+The profile page displays the following information:
+- Basic user information
+- XP amount
+- Grades
+- Audits
+- Skills
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Statistical Graphs
 
-### `npm run build`
+The profile page also includes a statistics section where you can generate graphs to visualize your progress and achievements at the school. The graphs are created using SVG and include:
+- Graph of earned XP over a certain period
+- Graph of earned XP by projects
+- PASS and FAIL project ratio
+- And other graphs of your choice
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Login Page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To access the data, a JWT is required, which can be obtained from the signin endpoint (https://01.kood.tech/api/auth/signin). The login page supports login with:
+- Username and password
+- Email and password
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If the credentials are invalid, an appropriate error message is displayed. A method for logging out is also provided.
 
-### `npm run eject`
+## Installation and Running
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Cloning the Repository
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git clone https://01.kood.tech/git/ieleskin/graphql
+cd graphql
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installing Dependencies
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Running the Application
+npm start
 
-## Learn More
+### Usage
+Logging In
+Open the application in a browser.
+Go to the login page.
+Enter your credentials (username and password or email and password).
+Click the "Login" button.
+Viewing the Profile
+After successfully logging in, you will be redirected to the profile page, where you can view your information and statistical graphs.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Logging Out
+On the profile page, click the "Logout" button to log out of the system.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Technologies
+React
+GraphQL
+Apollo Client
+SVG
