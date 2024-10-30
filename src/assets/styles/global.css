@@ -7,15 +7,15 @@
 }
 
 body {
-    background-color: #111;
-    color: #fff;
+    background-color: #222; /* Darker background */
+    color: #e0e0e0; /* Softer text color */
     margin: 20px;
     font-family: "Golos Text", sans-serif;
 }
 
 h1 {
     margin-bottom: 20px;
-    color: brown;
+    color: #ff6f61; /* Softer brown tone */
 }
 
 .header {
@@ -28,42 +28,42 @@ h1 {
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 20px;
+    gap: 25px;
+    padding: 25px;
 }
 
 .red-label {
-    color: red;
+    color: #ff4d4d;
 }
 
 .block {
-    background-color: orange;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffcc80; /* Light orange */
+    padding: 30px; /* Larger padding */
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
 }
 
 .logout-button {
     margin-left: auto;
-    padding: 10px 20px;
-    background-color: #f44336; /* Red background */
-    color: white; /* White text */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    font-size: 16px; /* Font size */
-    font-weight: bold; /* Bold text */
-    transition: background-color 0.3s ease; /* Smooth background color transition */
+    padding: 12px 25px;
+    background-color: #e57373; /* Softer red */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
 .logout-button:hover {
-    background-color: #d32f2f; /* Darker red on hover */
+    background-color: #d32f2f;
 }
 
 .logout-button:active {
-    background-color: #b71c1c; /* Even darker red on click */
+    background-color: #b71c1c;
 }
 
 .login-container {
@@ -74,17 +74,17 @@ h1 {
 }
 
 .login-form {
-    background-color: orange;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    background-color: #ffe0b2; /* Softer orange */
+    padding: 30px; /* Larger padding */
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    width: 350px; /* Larger width */
 }
 
 .login-form h2 {
     margin-bottom: 20px;
     text-align: center;
-    color: #333;
+    color: #444; /* Darker header */
 }
 
 .form-group {
@@ -94,38 +94,37 @@ h1 {
 .form-group label {
     display: block;
     margin-bottom: 5px;
-    color: #555;
+    color: #666;
 }
 
 .form-group input {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     border: 1px solid #ddd;
-    border-radius: 3px;
+    border-radius: 5px;
     font-size: 16px;
 }
 
 button[type="submit"] {
     width: 100%;
-    padding: 10px;
-    background-color: green;
+    padding: 12px;
+    background-color: #4caf50; /* Soft green */
     color: #fff;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px; /* Larger font size */
 }
 
 button[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #388e3c; /* Darker green on hover */
 }
 
 .error-message {
-    color: #dc3545;
+    color: #e57373;
     margin-top: 10px;
     text-align: center;
 }
-
 
 /* Responsive Styles */
 @media (max-width: 1200px) {
