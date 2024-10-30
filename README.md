@@ -39,7 +39,7 @@ If the credentials are invalid, an appropriate error message is displayed. A met
 
 ### Cloning the Repository
 
-git clone https://01.kood.tech/git/ieleskin/graphql
+git clone https://01.kood.tech/git/jkisselj/graphql
 cd graphql
 
 ### Installing Dependencies
