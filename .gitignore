@@ -3,9 +3,9 @@
 # dependencies
 /node_modules
 /.pnp
-.pnp.js
+.pnp.js 
 
-# testing
+# testing code
 /coverage
 
 # production
