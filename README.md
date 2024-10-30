@@ -2,7 +2,7 @@
 
 ## Follow the Link
 
-The project is deployed on [Netlify](https://shimmering-pie-d1d7c7.netlify.app)
+The project is deployed on 
 
 ## Project Description
 
